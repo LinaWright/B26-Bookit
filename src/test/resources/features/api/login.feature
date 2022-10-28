@@ -15,3 +15,5 @@ Feature: BookIt API login verifications
     And User logged in to Bookit app as teacher role
     And User is on self page
     Then User should see same info on UI and API
+
+

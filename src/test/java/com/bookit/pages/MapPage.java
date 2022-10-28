@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
-public class MapPage extends BasePage {
+public class MapPage extends BasePage{
 
     @FindBy(linkText = "my")
     public WebElement myLink;
@@ -18,5 +18,4 @@ public class MapPage extends BasePage {
         actions.moveToElement(myLink).perform();
         selfLink.click();
     }
-
 }

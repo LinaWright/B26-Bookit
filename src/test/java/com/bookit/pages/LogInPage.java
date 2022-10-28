@@ -3,7 +3,7 @@ package com.bookit.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class LogInPage extends BasePage {
+public class LogInPage extends BasePage{
     @FindBy(name = "email")
     public WebElement email;
 
@@ -18,5 +18,4 @@ public class LogInPage extends BasePage {
         password.sendKeys(userPassword);
         singInBtn.click();
     }
-
 }
